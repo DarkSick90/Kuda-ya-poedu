@@ -1,3 +1,6 @@
 .header {
     display: flex;
+    margin: 0 auto;
+    width: 89vw;
+    margin-bottom: 85px;
 }

@@ -1,3 +1,18 @@
 .intro {
  display: flex;
+ margin: 0 auto;
+ width: 89vw;
+}
+
+@media screen and (max-width: 1300px) {
+    .intro {
+        padding-bottom: 128px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+    }
 }

@@ -1,0 +1,17 @@
+.intro__pre-title {
+    font-size: 18px;
+    color: #fecda7;
+}
+
+@media screen and (max-width: 1300px) {
+    .intro__pre-title {
+        padding-top: 93px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .intro__pre-title {
+        padding: 0;
+    }
+}

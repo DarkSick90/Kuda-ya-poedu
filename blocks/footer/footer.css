@@ -1,3 +1,14 @@
 .footer {
     display: flex;
+    width: 100%;
+    min-height: 620px;
+    background-color: #fecda7;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        min-height: 480px;
+    }
 }
