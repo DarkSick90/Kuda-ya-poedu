@@ -1,3 +1,5 @@
 .places {
-    display: grid;
+  display: grid;
+  grid-template: repeat(auto-fit, 535px)/ 100%;
+  padding: 130px 0 0;
 }

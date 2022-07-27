@@ -1,0 +1,6 @@
+.place {
+  display: grid;
+  grid-template: 40% 60%/ repeat(2, 50%);
+  box-sizing: border-box;
+  max-height: 535px;
+}
