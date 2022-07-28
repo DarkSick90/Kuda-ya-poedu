@@ -1,20 +1,9 @@
-.people__pre-title {
-    font-size: 18px;
-    color: #fecda7;
-    padding-top: 100px;
-    margin: 0;
-    text-transform: uppercase;
-}
-
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 2500px) {
     .people__pre-title {
-        padding-top: 140px;
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .people__pre-title {
-        text-align: center;
+        font-size: 18px;
+        color: #fecda7;
+        padding-top: 100px;
+        margin: 0;
+        text-transform: uppercase;
     }
 }

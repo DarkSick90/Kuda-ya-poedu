@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 5504px) {
+@media screen and (min-width: 5500px) {
   .footer {
     min-height: 200px;
   }
