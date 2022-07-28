@@ -1,0 +1,12 @@
+.intro__pre-title {
+  align-self: end;
+  margin-bottom: 15px;
+  margin-left: 2px;
+}
+
+@media screen and (min-width: 2500px) {
+    .intro__pre-title {
+      font-size: 18px;
+      color: #fecda7;
+    }
+}

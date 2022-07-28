@@ -1,0 +1,43 @@
+.intro__image {
+  max-width: 356px;
+  width: 100%;
+  max-height: 356px;
+  grid-column: 2;
+  grid-row: 1/2;
+  margin: 0 0 0 37px;
+  justify-self: center;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.intro__image:hover {
+  transform: scale(1.1);
+
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__image {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__image {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro__image {
+    max-height: 0;
+    max-width: 0;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+    .intro__image {
+      min-width: 520px;
+      max-height: 520px;
+      margin-left: 10%;
+    }
+}

@@ -1,3 +1,33 @@
 .header {
-    display: flex;
+  display: flex;
+  max-width: 1145px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 50px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    max-width: 550px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    max-width: 300px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .header {
+    width: 89vw;
+    margin-bottom: 85px;
+  }
 }
