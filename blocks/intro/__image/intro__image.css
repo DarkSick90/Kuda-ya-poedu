@@ -7,6 +7,12 @@
   margin: 0 0 0 37px;
   justify-self: center;
   object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.intro__image:hover {
+  transform: scale(1.1);
+
 }
 
 @media screen and (max-width: 1024px) {
