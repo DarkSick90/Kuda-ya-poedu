@@ -24,3 +24,10 @@
     max-width: 300px;
   }
 }
+
+@media screen and (min-width: 2500px) {
+  .header {
+    width: 89vw;
+    margin-bottom: 85px;
+  }
+}

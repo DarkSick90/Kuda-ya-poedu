@@ -6,6 +6,13 @@
   margin: 0 auto;
 }
 
+@media screen and (min-width: 2500px) {
+  .people {
+      width: 89vw;
+      margin: 0 auto 50px;
+   }
+}
+    
 @media screen and (max-width: 1024px) {
   .people {
     max-width: 768px;

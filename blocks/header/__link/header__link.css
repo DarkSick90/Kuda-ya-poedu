@@ -1,7 +1,7 @@
 .header__link {
   font-size: 13px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   color: black;
   opacity: 1;
@@ -16,4 +16,10 @@
   .header__link {
     font-size: 10px;
   }
+}
+
+@media screen and (min-width: 2500px) {
+    .header__link {
+        font-size: 20px;
+    }
 }

@@ -1,0 +1,14 @@
+.header__nav {
+    display: flex;
+    width: 89vw;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 450px) {
+    .header__nav {
+        flex-direction: column;
+        gap: 40px;
+        align-items: flex-end;
+    }
+}

@@ -16,3 +16,9 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 2500px) {
+  .intro__title {
+    font-size: 48px;
+  }
+}
