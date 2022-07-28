@@ -6,3 +6,9 @@
   grid-template: repeat(auto-fit, minmax(120px, 1fr))/ repeat(auto-fit, minmax(240px, 1fr));
   column-gap: 57px;
 }
+
+@media screen and (max-width: 1024px) {
+  .people__quotes {
+    row-gap: 20px;
+  }
+}

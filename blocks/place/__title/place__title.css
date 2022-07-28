@@ -1,3 +1,9 @@
 .place__title {
   margin: 62px 0 0 72px;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    margin-left: 20px;
+  }
+}

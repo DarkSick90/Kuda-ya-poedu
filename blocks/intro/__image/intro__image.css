@@ -7,3 +7,9 @@
   margin: 0 0 0 37px;
   justify-self: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__image {
+    margin-left: 10px;
+  }
+}

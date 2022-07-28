@@ -5,3 +5,9 @@
   max-width: 1145px;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .people {
+    max-width: 768px;
+  }
+}

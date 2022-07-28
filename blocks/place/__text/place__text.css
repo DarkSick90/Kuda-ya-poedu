@@ -3,3 +3,9 @@
   margin: 0 0 0 72px;
   align-self: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .place__text {
+    margin-left: 20px;
+  }
+}
