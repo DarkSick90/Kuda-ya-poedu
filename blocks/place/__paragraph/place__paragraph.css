@@ -7,3 +7,9 @@
 .place__paragraph:not(:first-of-type) {
   margin-top: 25px;
 }
+
+@media screen and (max-width: 550px) {
+  .place__paragraph {
+    font-size: 11px;
+  }
+}

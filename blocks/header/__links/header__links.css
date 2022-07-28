@@ -2,3 +2,9 @@
   display: flex;
   column-gap: 36px;
 }
+
+@media screen and (max-width: 550px) {
+  .header__links {
+    column-gap: 10px;
+  }
+}

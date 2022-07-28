@@ -5,3 +5,9 @@
   text-decoration: none;
   color: black;
 }
+
+@media screen and (max-width: 550px) {
+  .header__link {
+    font-size: 10px;
+  }
+}

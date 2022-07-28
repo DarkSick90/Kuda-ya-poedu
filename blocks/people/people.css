@@ -18,3 +18,10 @@
     padding: 100px 0;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .people {
+    max-width: 300px;
+    padding: 60px 0;
+  }
+}

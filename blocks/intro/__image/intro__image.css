@@ -6,6 +6,7 @@
   grid-row: 1/2;
   margin: 0 0 0 37px;
   justify-self: center;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {
@@ -14,8 +15,15 @@
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .intro__image {
     margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .intro__image {
+    max-height: 0;
+    max-width: 0;
   }
 }

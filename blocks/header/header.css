@@ -18,3 +18,9 @@
     max-width: 550px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .header {
+    max-width: 300px;
+  }
+}

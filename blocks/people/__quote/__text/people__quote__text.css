@@ -3,3 +3,9 @@
   margin: 30px 0 0;
   line-height: 1.4;
 }
+
+@media screen and (max-width: 550px) {
+  .people__quote__text {
+    margin-top: 10px;
+  }
+}

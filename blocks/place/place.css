@@ -7,3 +7,9 @@
   width: 100%;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 550px) {
+  .place {
+    grid-template: 60px 210px 265px/100%;
+  }
+}
