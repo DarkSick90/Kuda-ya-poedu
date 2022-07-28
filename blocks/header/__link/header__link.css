@@ -6,6 +6,7 @@
   color: black;
   opacity: 1;
   transition: opacity 0.3s linear;
+  align-self: center;
 }
 
 .header__link:hover {
