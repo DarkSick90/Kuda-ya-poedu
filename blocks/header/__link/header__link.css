@@ -1,13 +1,25 @@
 .header__link {
-    font-size: 20px;
-    line-height: 1.2;
-    font-weight: 700;
-    color: black;
-    text-decoration: none;
+  font-size: 13px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  opacity: 1;
+  transition: opacity 0.3s linear;
 }
 
-@media screen and (max-width: 1300px) {
+.header__link:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 550px) {
+  .header__link {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 2500px) {
     .header__link {
-        font-size: 13px;
+        font-size: 20px;
     }
 }

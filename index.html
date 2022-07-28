@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="pages/index.css">
   <title>Куда я поеду</title>
 </head>
-<body>
+<body class="root">
   <div class="page">
     <header class="header">
       <nav class="header__nav">
@@ -20,55 +20,67 @@
     </header>
     <main class="main">
       <section class="intro">
-        <div class="intro__text">
-          <p class="intro__pre-title">Куда я поеду</p>
-          <h1 class="intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
-        </div>
-        <img src="images/intro-image.jpeg" alt="Вид из окна самолета" class="intro__image">
+        <p class="pre-title intro__pre-title">Куда я поеду</p>
+        <h1 class="title intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+        <img class="intro__image" src="./images/intro-image.jpeg" alt="Вид из окна в самолете">
       </section>
       <section class="places">
-        <img src="images/places-forest.jpeg" alt="Фото водопадов в лесу" class="places__image forest">
-        <div class="places__text forest-text">
-          <h2 class="places__title">Поеду в лес</h2>
-          <div class="places__paragraphs">
-            <p class="places__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой являются деревья.</p>
-            <p class="places__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса занимают около трети площади суши.</p>
+        <article class="place place-left">
+          <img class="place__image place-left__image" src="./images/places-forest.jpeg" alt="Лес">
+          <h2 class="title place__title place-left__title">Поеду в лес</h2>
+          <div class="place__text place-left__text">
+            <p class="place__paragraph">Лес — экологическая система, биоценоз, в которой главной жизненной формой
+              являются деревья.</p>
+            <p class="place__paragraph">Лес — составная часть природы, понятие «лес» можно рассматривать на разных
+              уровнях. В глобальном масштабе — это часть биосферы, в локальном — это может быть насаждение. Леса
+              занимают около трети площади суши.</p>
           </div>
-        </div>
-        <div class="places__text mountains-text">
-          <h2 class="places__title">Поеду в горы</h2>
-          <p class="places__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % — Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
-        </div>
-        <img src="images/places-mountains.jpeg" alt="Горы" class="places__image mountains">
-        <img src="images/places-black-sea.jpeg" alt="Чёрное море" class="places__image black-sea">
-        <div class="places__text black-sea-text">
-          <h2 class="places__title">Поеду на Чёрное море</h2>
-          <div class="places__paragraphs">
-            <p class="places__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать в это синее небо, я позову.</p>
-            <p class="places__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.</p>
-            <p class="places__paragraph">Уеду я.</p>
+        </article>
+        <article class="place place-right">
+          <img class="place__image place-right__image" src="./images/places-mountains.jpeg" alt="Горы">
+          <h2 class="title place__title place-right__title">Поеду в горы</h2>
+          <div class="place__text place-right__text">
+            <p class="place__paragraph">Горные системы занимают 64 % поверхности Азии, 36 % — Северной Америки, 25 % —
+              Европы, 22 % — Южной Америки, 17 % — Австралии и 3 % — Африки. В целом 24 % земной поверхности приходится
+              на горы. 10 % всех людей живёт на территории гор. В горах берёт своё начало большинство рек Земли.</p>
           </div>
-        </div>
+        </article>
+        <article class="place place-left">
+          <img class="place__image place-left__image" src="./images/places-black-sea.jpeg" alt="Черное море">
+          <h2 class="title place__title place-left__title">Поеду на Чёрное море</h2>
+          <div class="place__text place-left__text">
+            <p class="place__paragraph">Я уплыву туда, где ни разу я не был, туда, где никто раньше не был. Никто и
+              никогда раньше не был, я уплыву. Я позову тебя смотреть на синее небо и пить по капле синее небо, и падать
+              в это синее небо, я позову.</p>
+            <p class="place__paragraph">Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море уеду
+              я. Уеду я на Чёрное-Чёрное море, на Чёрное-Чёрное море, на Чёрное-Чёрное море.
+            </p>
+            <p class="place__paragraph">Уеду я.</p>
+          </div>
+        </article>
       </section>
       <section class="people">
-        <p class="people__pre-title">Люди</p>
-        <h2 class="people__title">Что говорят и говорили люди о путешествиях</h2>
-        <ul class="people__list">
-          <li class="people__item">
+        <p class="pre-title">Люди</p>
+        <h2 class="title people__title">Что говорят и говорили люди о путешествиях</h2>
+        <ul class="people__quotes">
+          <li class="people__quote">
             <h3 class="people__author">Иван Бунин</h3>
-            <q class="people__quote">Человека делают счастливым три вещи: любовь, интересная работа и возможность путешествовать.</q>
+            <blockquote class="people__text">Человека делают счастливым три вещи: любовь, интересная работа и возможность
+              путешествовать.</blockquote>
           </li>
-          <li class="people__item">
+          <li class="people__quote">
             <h3 class="people__author">Альбер Камю</h3>
-            <q class="people__quote">Путешествие как самая великая и серьезная наука помогает нам вновь обрести себя.</q>
+            <blockquote class="people__text">Путешествие как самая великая и серьезная наука помогает нам вновь обрести
+              себя.</blockquote>
           </li>
-          <li class="people__item">
+          <li class="people__quote">
             <h3 class="people__author">Норвежская пословица</h3>
-            <q class="people__quote">Лишь тот, кто странствует, открывает новые пути.</q>
+            <blockquote class="people__text">Лишь тот, кто странствует, открывает&nbsp;новые пути.</blockquote>
           </li>
-          <li class="people__item">
+          <li class="people__quote">
             <h3 class="people__author">Мария Захарова</h3>
-            <q class="people__quote">В принципе зарубежная поездка – это серьезнейшее, ответственнейшее и очень рискованное предприятие.</q>
+            <blockquote class="people__text">В принципе зарубежная поездка – это&nbsp;серьезнейшее, ответственнейшее&nbsp;и&nbsp;очень
+              рискованное предприятие. </blockquote>
           </li>
         </ul>
       </section>

@@ -1,17 +1,12 @@
 .intro__pre-title {
-    font-size: 18px;
-    color: #fecda7;
+  align-self: end;
+  margin-bottom: 15px;
+  margin-left: 2px;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 2500px) {
     .intro__pre-title {
-        padding-top: 93px;
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .intro__pre-title {
-        padding: 0;
+      font-size: 18px;
+      color: #fecda7;
     }
 }

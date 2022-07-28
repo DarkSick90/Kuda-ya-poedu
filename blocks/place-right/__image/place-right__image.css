@@ -1,0 +1,4 @@
+.place-right__image {
+  grid-column: 2;
+  grid-row: 1/2;
+}

@@ -1,34 +1,7 @@
 .places {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-@media screen and (max-width: 450px) {
-    .places {
-        grid-template-columns: 1fr;
-    }
-
-    .forest {
-        order: 1;
-    }
-    
-    .forest-text {
-        order: 2;
-    }
-    
-    .mountains {
-        order: 3;
-    }
-
-    .mountains-text {
-        order: 4;
-    }
-
-    .black-sea {
-        order: 5;
-    }
-
-    .black-sea-text {
-        order: 6;
-    }
+  display: grid;
+  grid-template: repeat(auto-fit, 535px)/ 100%;
+  width: 100%;
+  justify-items: center;
+  background-color: rgb(242, 242, 242);
 }
