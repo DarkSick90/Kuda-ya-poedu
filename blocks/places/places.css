@@ -1,5 +1,7 @@
 .places {
   display: grid;
   grid-template: repeat(auto-fit, 535px)/ 100%;
-  padding: 130px 0 0;
+  width: 100%;
+  justify-items: center;
+  background-color: rgb(242, 242, 242);
 }
