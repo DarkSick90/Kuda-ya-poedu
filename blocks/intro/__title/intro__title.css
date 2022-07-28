@@ -2,3 +2,10 @@
   margin-top: 10px;
   margin-left: 3px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__title {
+    margin: 0;
+    font-size: 25px;
+  }
+}

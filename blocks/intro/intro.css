@@ -12,3 +12,10 @@
     max-width: 768px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding: 60px 0 100px;
+    max-width: 550px;
+  }
+}
