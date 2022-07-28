@@ -11,4 +11,4 @@
 5. БЭМ
 
 
-* [Ссылка на gh-pages]()
+* [Ссылка на gh-pages](https://darksick90.github.io/Kuda-ya-poedu/)
